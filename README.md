@@ -23,6 +23,8 @@ I design the tables to hold data in the CSVs, import the CSVs into a SQL databas
 
 * Inspect the CSVs and sketch out an ERD of the tables by using quick database diagrams web.
 
+![ERD.png](img/ERD.png)
+
 ### 2. Data Engineering
 
 * Create a table schema for each of the six CSV files.
