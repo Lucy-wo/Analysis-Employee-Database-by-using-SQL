@@ -178,6 +178,31 @@ I design the tables to hold data in the CSVs, import the CSVs into a SQL databas
 
 1. Import the SQL database into Pandas. 
 
+```python
+import matplotlib
+import matplotlib.pyplot as plt
+import pandas as pd
+from config import password
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, inspect, func
+
+a='postgresql://postgres:'+password+'@localhost:5432/h2'
+engine = create_engine(a)
+connection = engine.connect()
+
+inspector = inspect(engine)
+inspector.get_table_names()
+
+columns = inspector.get_columns('salaries')
+for row in columns:
+    print(row['name'],row['type'])
+
+results=engine.execute('SELECT * FROM salaries').fetchall()
+results
+```
+
 2. Create a histogram to visualize the most common salary ranges for employees.
 
 3. Create a bar chart of average salary by title.
