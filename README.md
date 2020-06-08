@@ -1,6 +1,6 @@
 # Analysis Employee Database by using SQL 
 
-![sql.png](sql.png)
+![sql.png](img/sql.png)
 
 ## Background
 
