@@ -221,6 +221,6 @@ Create a table schema for each of the six CSV files. Should consider about speci
 
 ## Conclusions
 
-## Authors
+## Author
 * Lucy Wo
 
