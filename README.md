@@ -214,7 +214,13 @@ I design the tables to hold data in the CSVs, import the CSVs into a SQL databas
   
 ![1.png](img/1.png)
 
+![2.png](img/2.png)
+
 ## Challenges
-Create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+Create a table schema for each of the six CSV files. Should consider about specify data types, primary keys, foreign keys, and other constraints.
 
 ## Conclusions
+
+## Authors
+* Lucy Wo
+
